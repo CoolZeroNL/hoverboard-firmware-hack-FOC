@@ -152,7 +152,7 @@
                                                 // COM_CTRL
                                                 // SIN_CTRL
                                                 // FOC_CTRL (default)
-#define CTRL_MOD_REQ    TRQ_MODE        // JHG // [-] Control mode request: 
+#define CTRL_MOD_REQ    VLT_MODE        // JHG // [-] Control mode request: 
                                                 // OPEN_MODE
                                                 // VLT_MODE (default)
                                                 // SPD_MODE
@@ -163,7 +163,7 @@
 #define I_MOT_MAX       15              // [A] Maximum single motor current limit
 #define I_DC_MAX        17              // [A] Maximum stage2 DC Link current limit for Commutation and Sinusoidal types (This is the final current protection. Above this value, current chopping is applied. To avoid this make sure that I_DC_MAX = I_MOT_MAX + 2A)
 // #define N_MOT_MAX       1000            // [rpm] Maximum motor speed limit
-#define N_MOT_MAX       200            // JHG // [rpm] Maximum motor speed limit
+#define N_MOT_MAX       1000            // JHG // [rpm] Maximum motor speed limit
 
 // Field Weakening / Phase Advance
 #define FIELD_WEAK_ENA  0               // [-] Field Weakening / Phase Advance enable flag: 0 = Disabled (default), 1 = Enabled
