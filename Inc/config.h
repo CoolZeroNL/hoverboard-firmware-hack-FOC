@@ -152,12 +152,12 @@
                                                 // COM_CTRL
                                                 // SIN_CTRL
                                                 // FOC_CTRL (default)
-#define CTRL_MOD_REQ    VLT_MODE        // JHG // [-] Control mode request: 
+#define CTRL_MOD_REQ    TRQ_MODE        // JHG // [-] Control mode request: 
                                                 // OPEN_MODE
                                                 // VLT_MODE (default)
                                                 // SPD_MODE
                                                 // TRQ_MODE
-                                                // Note: SPD_MODE and TRQ_MODE are only available for CTRL_FOC
+                                                // Note: SPD_MODE and TRQ_MODE are only available for FOC_CTRL
                                                 
 // Limitation settings
 #define I_MOT_MAX       15              // [A] Maximum single motor current limit
